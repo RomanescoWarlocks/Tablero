@@ -6,20 +6,20 @@ Here it will be discussed the choice of the framework used for the graphical int
 ## Deprecated Frameworks
 
 ### WinForms
-WinForms (or Windows Forms) has long been the default technology for Windows dotNET development. However, the project has been in maintenance mode since 2014, so no features have been added since. It was therefore decided to use more modern technologies.
+[WinForms](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-6.0) (or Windows Forms) has long been the default technology for Windows dotNET development. However, the project has been in maintenance mode since 2014, so no features have been added since. It was therefore decided to use more modern technologies.
 
 ## Current frameworks
 Windows offers several dotNet development solutions for a Desktop app now. The main ones being WPF, WinUI and MAUI.
 
 ### WPF
-WPF (Windows Presentation Forms) is currently the most used library for Desktop apps. It is a framework with a lot of resources available, the framework being available since 2006. The way of creating user interface is similar to the classic way of developing the UI in Android which consists of a file in a language of markup (here XAML) describing the structure of the UI and a code file allowing to link the graphic elements to the data.
+[WPF](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/?view=netdesktop-6.0) (Windows Presentation Forms) is currently the most used library for Desktop apps. It is a framework with a lot of resources available, the framework being available since 2006. The way of creating user interface is similar to the classic way of developing the UI in Android which consists of a file in a language of markup (here XAML) describing the structure of the UI and a code file allowing to link the graphic elements to the data.
 
 ### WinUI
 
-WinUI (Windows UI) is an alternative framework to WPF. It works in a relatively similar way to WPF but offers more modern designs than WPF because it follows the [Fluent Design System](https://www.microsoft.com/design/fluent/) which are design rules applicable to Windows apps. However, being newer than WPF, it has fewer resources available than the latter in terms of libraries and support.
+[WinUI](https://learn.microsoft.com/en-us/windows/apps/winui/) (Windows UI) is an alternative framework to WPF. It works in a relatively similar way to WPF but offers more modern designs than WPF because it follows the [Fluent Design System](https://www.microsoft.com/design/fluent/) which are design rules applicable to Windows apps. However, being newer than WPF, it has fewer resources available than the latter in terms of libraries and support.
 
 ### MAUI
-.NET Multi-platform App UI (MAUI) is Microsoft's modern solution for cross-platform apps (PC, Mac, Android, IOS). It can be considered Microsoft's Flutter. In the case of Windows applications because it is the target of the project, MAUI relies on WinUI.
+[.NET Multi-platform App UI](https://learn.microsoft.com/en-us/dotnet/maui/?view=net-maui-7.0) (MAUI) is Microsoft's modern solution for cross-platform apps (PC, Mac, Android, IOS). It can be considered Microsoft's Flutter. In the case of Windows applications because it is the target of the project, MAUI relies on WinUI.
 
 
 # Choice of the framework
