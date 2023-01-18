@@ -29,5 +29,6 @@ Since the project isn't one to sell and that time isn't a big concern, it could 
 
 # Languages
 
-With the choice of WPF, this necessarily restricts the choice of the programming language used. The two main choices are C# and F#. C# is the classic dotNet object-oriented language while F# is its functional counterpart.
+With the choice of WPF, this necessarily restricts the choice of the programming language used. The two main choices are C# and F#. C# is the classic dotNet object-oriented language while F# is its functional counterpart. A mix of both is possible but to keep the project simple only a single language has been chosen.
 C# was chosen purely out of personal preference as I'm more comfortable with object oriented than functional and because it has more resources than F#.
+
