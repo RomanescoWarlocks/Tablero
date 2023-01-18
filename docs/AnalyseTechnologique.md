@@ -24,9 +24,8 @@ Windows offers several dotNet development solutions for a Desktop app now. The m
 
 # Choice of the framework
 
-It was decided to discard MAUI because within the scope of the project, there is no need to have cross-platform which would add unnecessary constraints. The choice therefore had to be made between WPF and WinUI. Both are relatively similar but the choice was to go with WPF for the reason that due to its age, more resources are available than for WinUI, also the project interface being relatively simple, there is not necessarily a need to have a state-of-the-art UI.
-
-WPF will therefore be the UI framework used.
+It was decided to discard MAUI because within the scope of the project, there is no need to have cross-platform which would add unnecessary constraints. The choice therefore had to be made between WPF and WinUI. Both are relatively similar, for example both encourage the MVVM approach with XAML files and data binding. In fact their logic seems to be relatively the same, WinUI is just the newest in terms of design but the business logic behind a UI created in WPF or WinUI seems to be relatively similar, see an Hello World example program in [WPF](https://learn.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-wpf?view=vs-2022) and [WinUI](https://learn.microsoft.com/en-us/windows/apps/how-tos/hello-world-winui3). 
+Since the project isn't one to sell and that time isn't a big concern, it could be interesting to experiment with WinUI to try a modern tool.
 
 # Languages
 
